@@ -1,0 +1,91 @@
+1) ls command-ls is a Linux shell command that lists directory
+contents of files and directories. It provides valuable information
+about files, directories, and their attributes.
+2) ls -l command - known as a long format
+that displays detailed information about files and directories.
+3) ls -a command - Represent all files Include hidden files
+and directories in the listing.
+4) cd command-The ‘cd’ command allows users to change their
+current working directory within the file system.
+5) pwd -L command- The ‘pwd,’ which stands for “print working
+directory.” Prints the symbolic path.
+6) pwd -P command -The ‘pwd,’ which stands for “print working
+directory.” Prints the actual path.
+7) cat command-The cat command in Linux is more than just a
+simple tool; it’s a versatile companion for various file-related
+operations, allowing users to view, concatenate, create, copy,
+merge, and manipulate file contents.
+8) cat -n command -Adding the -noption to cat introduces line
+numbers, making it convenient to identify and reference specific
+lines within the file.
+9) cat > file_name command - If you want to create a new file or
+overwrite an existing file with new content, you can use ‘cat’ with
+the output redirection (`>`):
+10) mkdir command- This command can create
+multiple directories at once as well as set the permissions for the
+directories. ‘mkdir’ stands for “make directory,”.
+11) mkdir –v command - Enables verbose mode, displaying a
+message for every directory created. When used with the
+[directories] argument, it shows the names of the directories being
+created.
+12) mkdir –p command - A flag that allows the creation of parent
+directories as necessary. If the specified directories already exist,
+no error is reported. Useful for creating a directory
+hierarchywithout errors.
+13) rmdir command - The rmdir command is useful when
+you want to remove the empty directories from the
+filesystem in Linux.
+14) rmdir –v command - If you want the terminal to
+display the message after
+removing the directory, you can use the -v option with the rmdir
+command:
+15) rmdir –p command - You can use the -p option with the rmdir
+command to delete a directory, including all the subdirectories:
+16) rm command - rm stands for remove here. rm command is used
+to remove objects such as files, directories, symbolic links and so on
+from the file system like UNIX.
+17) rm –v command - If you want the terminal
+to display the message after removing the file, youcan use the -v
+option with the rm command:
+18) rm –i command - If the file is write-protected, rm will ask you to
+validate its deletion; otherwise, it will delete it without prompting.
+Using the “-i” flag to force rm to prompt for confirmation before
+deleting a file.
+19) cp command - This command creates a copy of the `source_file`
+at the specified `destination`. If the destination is a directory, the
+file is copied into that directory.
+20) cp –i command - i stands for Interactive copying. With this
+option the system first warns the user before overwriting the
+destination file. cp prompts for a response, if you press y then it
+overwrites the file and with any other option leaves it
+uncopied.
+21) cp –f command - -f(force): If the system is unable to open
+destination file for writing operation because the user doesn’t have
+writing permission for this file then by using -f option with cp
+command, destination file is deleted first and then copying of
+content is done from source to
+destination file.
+22) mv command (to rename a file)- mv command in linux is
+used to rename file directories and move files from one location
+to another within a file system.
+23) mv command (to rename a directory)- mv command in linux
+is used to rename file directories and move files from one
+location to another within a file system.
+24) mv command (to move a file to another directory) - mv
+command in linux is used to rename file directories and move
+files from one location to another within a file system.
+25) chmod command - In Unix operating systems, the chmod
+command is used to change the access mode of a file. The name is
+an abbreviation of change mode. Which states that every fileand
+directory has a set of permissions that control the permissions like
+who can read, write or
+execute the file. In this the permissions have three
+categories: read, write, and execute simultaneously represented by `r`,
+`w` and `x`. These letters
+combine together to form a specific permission for a group of users.The
+`chmod` command is used to modify this permission so that itcan grant
+or restrict access to directories and files.
+Symbolic mode is the most common method used for specifying fir
+permissions. In this we must make a combination of letters and
+operators to set or tell what to do with permissions.
+The following operators can be used with the symbolic mode:
