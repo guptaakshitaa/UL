@@ -1,0 +1,20 @@
+1. creating directory
+2. Creating files
+
+3.
+3a. accessing vi editor
+3b. wc command
+The wc (word count) command in Unix/Linux is used to count the number
+of lines, words, and bytes (or characters) in a file or input
+3c. mv command
+The mv command in Unix/Linux is used to move or rename files and
+directories.
+3d. cat command
+4. Student Data
+
+5. tail command
+6. head command
+
+7. chmod command
+8. sort command
+9. sort -r command
