@@ -1,0 +1,175 @@
+1) echo
+The echo command in Linux is used to display a line of text or a variable
+value to the standard output (usually the terminal). It can also be used to
+write textto a file when redirected.
+1a. echo -n
+Prints without a trailing newline.
+1b. echo with appending
+Appends text to the back of the given file.
+2) clear
+The clear command in Linux is used to clear the terminal screen, removing
+all previous output. It provides a clean workspace, making it easier to view
+new commands or results.
+1
+S12/35
+3) exit
+Exits from the terminal
+4) date
+The date command in Linux is used to display the current date and time in a
+specified format. It can also be used to set the system date and time, or output
+the date in different formats using various options.
+4a. date -u
+Displays the current date and time in UTC (Coordinated Universal Time).
+2
+S12/35
+5) time
+The time command in Linux is used to measure the duration of time a
+command takes to execute. It provides real-time, user CPU time, and system
+CPU time statistics after the command completes.
+6) uptime
+The uptime command in Linux displays the system's uptime, showing how
+long the system has been
+running since the last reboot. It also provides the current time, number of
+users, and system load
+averages for the past 1, 5, and 15 minutes.
+6a. uptime -s
+Shows the exact start time of the system.
+6b. uptime -V
+Displays the version of the uptime command.
+3
+S12/35
+7) cal
+The cal command in Linux displays a calendar for the current month by
+default. It can also be used
+with options to show calendars for specific months, years, or even a specific
+range of months.
+7a. cal -jy
+-j (Julian dates): Displays the calendar with Julian days, where the days of the
+year are numbered sequentially from 1 to 365 (or 366 for leap years).
+-y (Year calendar): Displays the calendar for the entire year.
+When combined, cal -jy displays the calendar for the entire year, with each
+day labeled using its Julian day number.
+4
+S12/35
+7b. cal month year
+The cal command in Unix/Linux is used to display a calendar. When used
+with the arguments month and year, it displays the calendar for the specified
+month and year.
+5
+S12/35
+8) cat
+The cat command in Linux is used to concatenate and display the contents of
+one or more files to the
+standard output (usually the terminal). It is commonly used to quickly view
+the content of a file or
+combine files into one.
+9) tty
+The tty command in Linux displays the file name of the terminal connected to
+the user. It shows the
+device name where the user is currently working, useful for identifying the
+terminal session.
+9a. tty --silent
+The command returns an exit status but does not print anything to the
+terminal. The tty --silent option is mainly used in scripts to determine if the
+standard input is connected to a terminal without displaying the terminal
+name.
+6
+S12/35
+9b. tty –version
+The tty --version command in Unix/Linux is used to display the version
+information of the tty command. It prints the version number of the tty utility
+along with copyright information.
+10)man
+The man command in Linux is used to display the manual pages (help
+documentation) for other
+commands and programs. It provides detailed information on usage, options,
+and examples for a
+given command. For example, man ls shows the manual for the ls command.
+7
+S12/35
+10a. man -V
+The man -V command in Unix/Linux is used to display the version
+information of the man (manual) command. Prints the version number of the
+man utility along with additional details
+10b. man --help
+The man --help command in Unix/Linux displays the help message for the
+man (manual) command, listing available options and their descriptions.
+8
+S12/35
+10) which
+The which command in Linux is used to locate the executable file associated
+with a command. It
+shows the full path of the command that will be executed when typed in the
+terminal.
+9
+S12/35
+11) history
+The history command in Linux displays a list of previously executed
+commands in the current shell
+session. It allows users to review, reuse, or modify commands from the
+history list.
+12) Id
+The id command in Linux is used to display user and group information for
+the current user or a
+specified user. It shows the user's UID (User ID), GID (Group ID), and the
+groups they belong to.
+10
+S12/35
+13) pwd
+The pwd (print working directory) command in Linux displays the full path
+of the current directory
+the user is working in. It shows the absolute path starting from the root
+directory.
+14) whoami
+The whoami command in Linux displays the current logged-in user's
+username. It is a simple way to check which user is currently authenticated
+and active in the session.
+11
+S12/35
+15) ping
+The ping command in Linux is used to test the network connectivity between
+your system and another system (usually a remote host). It sends ICMP echo
+requests and waits for the reply, helping to diagnose network issues.
+16a. ping -i
+ping commands are typically used to check network connectivity between
+devices, and the -i flag specifies the interval between sending each packet (in
+seconds).
+16) ifconfig
+The ifconfig command in Linux is used to configure, manage, and display
+network interfaces on the
+system. It shows the IP address, netmask, and MAC address of active
+interfaces.
+12
+S12/35
+17a. ifconfig ~a
+Displays network interface configuration for all active interfaces, but ~a
+seems incorrect. It should be -a to list all interfaces.
+17b. ifconfig eth0
+Displays the configuration of the eth0 network interface, including IP address,
+netmask, and other network details.
+13
+S12/35
+17) pr
+The pr command in Linux is used to paginate or format text files for printing.
+It allows you to divide
+the output into columns, add headers, footers, and other formatting options,
+making it more
+readable for printing or viewing large files.
+14
+S12/35
+18a. pr -2 -w 80 -n filename.txt
+Formats filename.txt to be printed with two columns (-2), a width of 80
+characters (-w 80), and page numbers (-n).
+18) lp
+The lp command in Unix is used for submitting print jobs to printers. It sends
+files to be printed to a printer or print queue.
+19) lpr
+The lpr command in Unix is another command for submitting print jobs to
+printers, similar to the lp command. It is often used to send files to be printed
+to a printer or print queue.
+20) lpstat
+Displays information about print queue.
+21) lpq
+The lpq command in Unix is used to display the status of print queues on a
+system. It shows information about print jobs in the queue such as job ID,
+owner, file size, and status
