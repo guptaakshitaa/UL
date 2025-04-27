@@ -1,0 +1,130 @@
+Who : The who command is a simple and effective way to display
+information about currently logged-in users.
+Whoami : The ‘whoami’ command is a simple yet powerful utility
+designed to reveal the current username
+associated with the active user session
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+USER MANAGEMENT :
+Sudo : sudo is a program for Unix-like computer operating systems
+that enables users to run programs with the security privileges of
+another user, by default the superuser.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Sudo -l: will print out the commands allowed (and forbidden) the user
+on the current host.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Sudo -v: If, given the -v (validate) option, sudo will update the user’s
+timestamp, prompting for the user’s password if necessary.
+Sudo -k: The -k (kill) option to sudo invalidates the user’s timestamp.
+So, the next time sudo is run a password will be required.
+Sudo -s: The -s option runs the shell specified by the SHELL
+environment variable if it is set
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Login : login is used when signing onto a system. It can also be used
+to switch from one user to another at any time
+Login -f: Used to skip a second login authentication. This specifically
+does not work for root
+Logout : The logout command in Unix is used to log out the currently
+logged-in user from the system in that session. It works
+programmatically and is typically executed in a login shell.
+Exit: exit command in Unix is used to exit the shell where it is
+currently running
+Passwd : The passwd command in Unix provides a straightforward
+and effective way to modify user passwords
+Useradd : useradd is a command in Unix that is used to add user
+accounts to your system
+sudo useradd -d /home/lab1003 lab1003 :To give a home directory
+path for new users.
+sudo useradd -u 1234 lab1003: To create a new user with a custom
+UID
+sudo useradd -g 1000 lab1003:To create a new user and assign a
+specific group ID
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+sudo useradd -c "comment":To add a comment or description for a
+user sudo useradd -p name1 name2: To set an unencrypted password
+for the user
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Usermod : usermod command or modify user is a command in Unix
+that is used to change the
+properties of a user in Unix through the command line.
+sudo usermod -c "comment" name:To add a comment for a user
+sudo usermod -d /home/dir_name name :To change the home
+directory of a user sudo usermod -e
+yyyy-mm-dd test_user: To change the expiry date of a user sudo
+usermod -L test_user :To lock a user
+sudo usermod -U test_user :To Unlock a user
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Userdel : userdel command in unix system is used to delete a user
+account and related files.
+-f : Force removal of the user account, including home directory and
+mail spool, even if the user is logged in.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+-r: Remove the user’s home directory along with the account. Useful
+for a complete cleanup.
+-R: Apply changes in the specified CHROOT_DIR, useful for user
+deletion operations within a chroot environment.
+Groupadd : The groupadd command creates a new group account
+using the values specified on the command line, plus the default
+values from the system. The new group is entered into the system files
+as needed.
+-f: This option forces the command to silently abort if the group with
+the given name already exists.
+-g: This option assigns a specific numeric group id to the newly
+created group.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+-p: Sets an encrypted password for the group.
+Groupmod : groupmod command in unix is used to modify or change
+the existing group on unix system. It can be handled by superuser or
+root user.
+/etc/group: Group Account Information.
+/etc/gshadow: Secured group account information.
+/etc/login.def: Shadow passwd suite configuration.
+/etc/passwd: User account information.
+-p: This gives the encrypted password.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Groupdel : The ‘groupdel’ command is a powerful tool in unix that
+allows system administrators to delete existing
+groups.
+-f:deletes the group even if it is a primary one.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+-h: displays help message.
+Gpasswd : gpasswd command is used to administer the /etc/group
+and /etc/gshadow. As every group in unix has administrators,
+members, and a password.
+-a:Used for adding a password to a group
+-d:used for deleting a password from a group.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Chown : The `chown` command, short for “change owner,” is a
+powerful tool that allows users to change the owner of files and
+directories.
+The `-c` option in the `chown` command is utilized to report when a
+file change is made.
+The `-v` option enhances the verbosity of the `chown` command by
+showing detailed information for every
+processed file.
+Chgrp : The `chgrp` command in unix is used to change the group
+ownership of a file or directory. All files in unix belong to an owner
+and a group.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+Chage : The chage command is used to view and change the user
+password expiry information. This command is used when the login
+is to be provided for a user for a limited amount of time or when it is
+necessary to change the login password from time to time
+Chfn : chfn modifies a user's "finger" information. This information
+is stored in the file /etc/passwd, and
