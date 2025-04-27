@@ -1,0 +1,18 @@
+grep “Fixed” abcbank.txt
+1ii Display records without fixed account.
+Command: grep “Fixed” ~v abcbank.txt
+2 Display records with Shah in it.
+3 Append 2 records(display whole file).
+B Using awk command:
+1 Display full name of account holder with spaces in between.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+2i. Display records of with a saving account.
+2ii. Display records without a saving account.
+3 Print records having current account balance greater than Rs 10000
+C Using sed command:
+1 Display first 4 records.
+2. Display last record.
+THADOMAL SHAHANI ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+3. Replace all occurances of Shah by Shahji.
